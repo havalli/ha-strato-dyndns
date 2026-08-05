@@ -264,7 +264,7 @@ class StratoDynDNSCoordinator(DataUpdateCoordinator[dict[str, Any]]):
     async def _update_domain(self, domain: str, ip: str, ip6: str | None = None) -> tuple[str, str]:
         try:
             auth = aiohttp.BasicAuth(self.username, self.password)
-            myip = f"{ip},{ip6}" if ip6 else ip
+            myip = f"{ip6}" if ip6 else ip
             params = {"system": "dyndns", "hostname": domain, "myip": myip}
             async with asyncio.timeout(30):
                 async with self._http.get(
