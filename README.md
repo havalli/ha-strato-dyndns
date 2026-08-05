@@ -1,7 +1,7 @@
 # Strato DynDNS
 
 [![HACS](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/hacs/integration)
-[![Version](https://img.shields.io/github/v/release/LuckyTriple7/ha-strato-dyndns)](https://github.com/LuckyTriple7/ha-strato-dyndns/releases)
+[![Version](https://img.shields.io/github/v/release/havalli/ha-strato-dyndns)](https://github.com/havalli/ha-strato-dyndns/releases)
 
 Home Assistant custom integration for Strato DynDNS. Monitors your public IPv4 (and optionally IPv6) address and automatically updates all configured domains at Strato when the IP changes.
 
@@ -20,7 +20,7 @@ Home Assistant custom integration for Strato DynDNS. Monitors your public IPv4 (
 ## Installation via HACS
 
 1. Open HACS → **Integrations** → Menu (⋮) → **Custom repositories**
-2. Enter URL: `https://github.com/LuckyTriple7/ha-strato-dyndns`
+2. Enter URL: `https://github.com/havalli/ha-strato-dyndns`
 3. Category: **Integration** → **Add**
 4. Search for **Strato DynDNS** → **Download**
 5. Restart Home Assistant
@@ -104,7 +104,7 @@ Home Assistant Custom Integration für Strato DynDNS. Überwacht die öffentlich
 ### Installation via HACS
 
 1. HACS öffnen → **Integrationen** → Menü (⋮) → **Benutzerdefinierte Repositories**
-2. URL eingeben: `https://github.com/LuckyTriple7/ha-strato-dyndns`
+2. URL eingeben: `https://github.com/havalli/ha-strato-dyndns`
 3. Kategorie: **Integration** → **Hinzufügen**
 4. Integration suchen: **Strato DynDNS** → **Herunterladen**
 5. Home Assistant neu starten
